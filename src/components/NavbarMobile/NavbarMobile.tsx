@@ -18,7 +18,7 @@ const NavbarMobile = ({ containerStyle } : { containerStyle: string }) => {
             <>
               <li key={index}>
                 
-                <Link href={item.url}  className='text-white  hover:text-orange-500 transition-all'>{item.label}</Link>
+                <Link href={item.url}  className='text-white hover:text-orange-500 transition-all'>{item.label}</Link>
                 
               </li>
               

@@ -20,13 +20,15 @@ const config: Config = {
     fontFamily:{
       oswald: 'var(--font-oswald)',
       roboto: 'var(--font-roboto)',
+      monsterat: 'var(--font-montserrat)',
     },
     backgroundImage:{
       hero:'url(/assets/img/bg/forest.jpeg)',
+      gred:'url(/assets/img/grad/gradient.jpg)',
     },
     extend: {
       backgroundImage: {
-       
+        
       },
       colors: {
         accent:'#d4000d',
